@@ -1,2 +1,2 @@
 # Java-Practice-Projects
-This repository contains various Java practice projects. These projects cover fundamental concepts, object-oriented programming (OOP), algorithms, and problem-solving techniques in Java. They are designed to improve coding skills and deepen understanding of the Java programming language.
+Bu repo, Java dilini öğrenme sürecim boyunca oluşturduğum deneme projelerini içermektedir. İçerikler, Java diline yeni başlayanlar ve orta seviyedeki arkadaşlarım için faydalı olacaktır. Repoda, Java'nın temel mantığı ve yapısına dair örnekler, bazı algoritmaların kullanımı ve birkaç küçük proje bulunmaktadır. Bu projeler, Java dilini daha iyi anlamak ve uygulamalı olarak öğrenmek isteyenler için rehber niteliğindedir.
