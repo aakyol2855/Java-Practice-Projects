@@ -1,0 +1,5 @@
+havalimaniAdi, YoneticiAdSoyad;DTarih(Yil);Ay;Gün;Maas;Kategori (Yonetici),Konum (Ülke;Şehir)
+Sabiha Gökçen;Ahmet Selim;1984;8;4;2000;Yonetici;Turkiye;Istanbul
+Esenboga;Sevgi Yılmaz;1965;3;2;1865.99;Yonetici;Turkiye;Ankara
+Esenboga;Cansel Işık;1975;7;5;2456.23;Yonetici;Turkiye;Ankara
+Erzurum Havalimani;Emre Celik;1987;11;4;5412.2;Yonetici;Turkiye;Erzurum

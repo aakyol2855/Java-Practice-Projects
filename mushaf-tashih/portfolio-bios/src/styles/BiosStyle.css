@@ -1,0 +1,289 @@
+.bios-container {
+  background-color: #ffffff;
+  color: #000080;
+  font-family: 'Courier New', monospace;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.bios-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000080;
+  color: #ffffff;
+  padding: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.bios-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000080;
+  color: #ffffff;
+  padding: 15px;
+  font-size: 0.9em;
+  margin-top: auto;
+}
+
+.bios-main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #000080;
+}
+
+.bios-menu {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #000080;
+}
+
+.bios-menu-item {
+  cursor: pointer;
+  padding: 5px 15px;
+  color: #ffffff;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.bios-menu-item::before {
+  content: '>';
+  position: absolute;
+  left: -15px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.bios-menu-item:hover::before {
+  opacity: 1;
+}
+
+.bios-menu-item.active {
+  color: #ffff00;
+  font-weight: bold;
+}
+
+.bios-menu-item.active::before {
+  opacity: 1;
+}
+
+.bios-content {
+  margin-top: 20px;
+  background-color: #ffffff;
+  color: #000080;
+  padding: 20px;
+  border: 1px solid #000080;
+  min-height: 70vh;
+}
+
+.bios-section {
+  margin-bottom: 20px;
+}
+
+.bios-section-title {
+  color: #000080;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.bios-section-subtitle {
+  color: #000080;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.bios-input {
+  background-color: #ffffff;
+  color: #000080;
+  border: 1px solid #000080;
+  padding: 5px;
+  font-family: 'Courier New', monospace;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.bios-input::placeholder {
+  color: #808080;
+}
+
+.bios-button {
+  background-color: #000080;
+  color: #ffffff;
+  border: 1px solid #000080;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-family: 'Courier New', monospace;
+  transition: all 0.3s ease;
+}
+
+.bios-button:hover {
+  background-color: #ffffff;
+  color: #000080;
+}
+
+.admin-login {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #000080;
+  padding: 10px;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.social-link {
+  color: #000080;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #000080;
+  transition: all 0.3s ease;
+}
+
+.social-link:hover {
+  background-color: #000080;
+  color: #ffffff;
+}
+
+.project-list {
+  list-style: none;
+  padding: 0;
+}
+
+.project-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #000080;
+}
+
+.project-item:hover {
+  background-color: #f0f0f0;
+}
+
+.project-link {
+  color: #000080;
+  text-decoration: none;
+  font-family: 'Courier New', monospace;
+}
+
+.project-link:hover {
+  color: #000080;
+  text-decoration: underline;
+}
+
+.project-description {
+  margin-top: 5px;
+  font-size: 0.9em;
+}
+
+.project-links {
+  margin-top: 5px;
+  display: flex;
+  gap: 10px;
+}
+
+.project-link-item {
+  color: #000080;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.project-link-item:hover {
+  text-decoration: underline;
+}
+
+/* BIOS tarzı seçim efekti */
+.bios-selection {
+  background-color: #000080;
+  color: #ffffff;
+}
+
+/* BIOS tarzı yükleme animasyonu */
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.bios-cursor {
+  display: inline-block;
+  width: 8px;
+  height: 16px;
+  background-color: #000080;
+  margin-left: 5px;
+  animation: blink 1s infinite;
+}
+
+.ascii-icon {
+  font-family: monospace;
+  white-space: pre;
+}
+
+.blog-section {
+  margin-top: 30px;
+}
+
+.blog-link {
+  color: #000080;
+  text-decoration: none;
+  font-family: 'Courier New', monospace;
+}
+
+.blog-link:hover {
+  text-decoration: underline;
+}
+
+.project-card {
+  border: 1px solid #000080;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+}
+
+.bios-notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  border: 1px solid #000080;
+  font-family: 'Courier New', monospace;
+  animation: slideIn 0.3s ease-out;
+  z-index: 1000;
+}
+
+.bios-notification.success {
+  background-color: #ffffff;
+  color: #00ff00;
+  border-color: #00ff00;
+}
+
+.bios-notification.error {
+  background-color: #ffffff;
+  color: #ff0000;
+  border-color: #ff0000;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+} 

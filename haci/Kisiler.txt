@@ -1,0 +1,13 @@
+Ad Soyad, DTarih(Gün;Ay;Yıl); Kategori
+Ahmet Bozkurt;1960:6:4;Yönetici
+Ayşe Temel;2000:10:16;KabinUyesi
+Sibel Çelik;1989:4:5;KabinUyesi
+Erkan Özer;1986:8:29;KabinUyesi
+Sevde Çalık;1990:4:6;KabinUyesi
+Hakan Temel;1989:5:7;Pilot
+Mehmet Şen;1987:12:17;Pilot
+Ferit Işık;1987:10:31;Pilot
+Sevda Doğan;1986:6:25;Müsteri
+Gonca Ekrem;1987:10:31;Calisan
+Ezgi Şeker;1957:4:4;Müsteri
+Tarık Aksoy;1965:10:31;Müsteri
